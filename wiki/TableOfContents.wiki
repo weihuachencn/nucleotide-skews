@@ -1,5 +1,5 @@
 [Documentation]
-  * [NSGetRawData obtain the raw data]
+  * [NSGetRawData raw data]
   * [NSGetDataReady get data ready]
     * [NSpart1 to be added]
   * [NSNucleotideSkew analyses for nucleotide skews]
