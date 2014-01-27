@@ -2,14 +2,33 @@
 
 <wiki:toc max_depth="5" /> 
 
-= Introduction =
+== Introduction ==
 
-Add your content here.
+create a folder with name "*_bacteria_*", and put everything into this folder.
 
+== get genome sequences and annotation ==
 
-= Details =
+  1. genome sequences
+   * create a subfolder *_bacterial_genomes_seqs_fasta_*
+   * go to this subfolder (now working directory should be "_*bacteria/bacterial_genomes_seqs_fasta*_") and download all complete prokaryotic genomes from NCBI: ftp://ftp.ncbi.nlm.nih.gov/genomes/Bacteria/all.fna.tar.gz
+   * unzip downloaded file using command : 
+{{{
+tar -zxvf all.fna.tar.gz
+}}}
+   * the downloaded file 'all.fna.tar.gz' can be then deleted
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  2. genome annotation
+   * create a subfolder "*_bacterial_gffs_*" in folder "_*bacteria*_" and go to this newly created folder; current working directory should be "*_bacteria/bacterial_gffs_*"
+   * download annotations in GFF format from NCBI: : ftp://ftp.ncbi.nlm.nih.gov/genomes/Bacteria/all.gff.tar.gz
+   * unzip this file with command:
+{{{
+tar -zxvf all.gff.tar.gz
+}}}
+
+== replication origin sites ==
+
+Replication origin sites can be obtained from [http://tubic.tju.edu.cn/doric/  DoriC - a database of oriC regions in bacterial genomes]. Please always use the latest data from this database.
+
+The replication origin sites we obtained can be downloaded from here: .
+
+==  ==
