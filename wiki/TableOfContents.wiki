@@ -1,2 +1,4 @@
 [Documentation]
   * [NSCodonTable Origin and biological significance of nucleotide skews]
+    * [NSCodonTableUseProcessedData reproduce our results using processed data]
+    * [NSCodonTableFromScratch reproduce our results from scratch]
