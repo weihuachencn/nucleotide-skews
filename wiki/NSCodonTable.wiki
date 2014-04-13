@@ -1,7 +1,5 @@
 #summary Nucleotide skews in coding regions are shaped by a trade-off inherent in the codon table
 
-#sidebar TableOfContents
-
 = Introduction =
 
 Add your content here.
