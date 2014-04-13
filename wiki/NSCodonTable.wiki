@@ -4,4 +4,5 @@ _please send email to chenwh550@gmail.com if you have questions and/or comments.
 
 select the topics to continue:
 
-  # 
+  # [NSCodonTableUseProcessedData reproduce our results using processed data]
+  # [NSCodonTableFromScratch reproduce our results from scratch]
