@@ -1,9 +1,27 @@
 #summary Nucleotide skews in coding regions are shaped by a trade-off inherent in the codon table
 
-This section allows you to use the processed data to produce the statistical tests, figures and supplementary figures except SupFigure 1.
+
+=== use the processed data to reproduce the main results in the manuscript ===
+
+This section allows you to use the processed data to reproduce the statistical tests, figures and supplementary figures except SupFigure 1.
 
   # download a zip file from [https://drive.google.com/file/d/0BwieX-ApVZM5T1Y3cFZOY3ptTFk/edit?usp=sharing here] and unzip it; a folder '5_skews2014_rawdata_and_Rscripts_for_www' will be created
   # launch your "R" application; if you don't have one, please download it from [http://www.r-project.org/ here]. Set the working directory to "/path/to/5_skews2014_rawdata_and_Rscripts_for_www".
   # copy and paste the contents of the R source code file : 'nucleotide_skews_2014.R' into your program.
 
-NOTE: a R library "ggplot2" is required to make the figures; please install it if you haven't done so.
+*NOTE:* a R library "ggplot2" is required to make the figures; please install it if you haven't done so.
+
+=== the random dataset used in Figure 3 and Sup Figure 7 ===
+
+The random dataset was created using a PERL script, which can be downloaded from [https://drive.google.com/file/d/0BwieX-ApVZM5ekFweWxCZ0NnT1E/edit?usp=sharing here].
+
+*NOTE:* a PERL library "List::Util" is required.
+
+=== the dataset used in Figure 4 ===
+
+This dataset was created using an in-house JAVA program, which can be downloaded from [https://drive.google.com/file/d/0BwieX-ApVZM5TmpRNFZVeEp1bE0/edit?usp=sharing here]. 
+
+*NOTE:*
+  # It is a NetBeans 8 project. Unzip and load it to NetBeans, you can see the source codes.
+  # a precompile jar file can be found in the 'dist/' subfolder. to run it, JAVA 1.7 is required.
+  # this program uses a parallel library and it will be VERY memory-consuming, so please try not to run it on your laptop / desktop.
