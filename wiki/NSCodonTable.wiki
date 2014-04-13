@@ -4,6 +4,6 @@ This section allows you to use the processed data to produce the statistical tes
 
   # download a zip file from [https://drive.google.com/file/d/0BwieX-ApVZM5T1Y3cFZOY3ptTFk/edit?usp=sharing here] and unzip it; a folder '5_skews2014_rawdata_and_Rscripts_for_www' will be created
   # launch your "R" application; if you don't have one, please download it from [http://www.r-project.org/ here]. Set the working directory to "/path/to/5_skews2014_rawdata_and_Rscripts_for_www".
-  # copy and paste the contents of the R source code file : 'nucleotide_skews_2014.R'.
+  # copy and paste the contents of the R source code file : 'nucleotide_skews_2014.R' into your program.
 
 NOTE: a R library "ggplot2" is required to make the figures; please install it if you haven't done so.
