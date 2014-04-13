@@ -1,5 +1,5 @@
 [Documentation]
-  * [NSCodonTable origin and biological significance of nucleotide skews]
+  * [NSCodonTable Origin and biological significance of nucleotide skews]
   * [NSGetRawData obtain the raw data]
   * [NSGetDataReady get data ready]
     * [NSpart1 to be added]
