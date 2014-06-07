@@ -1,5 +1,7 @@
 #summary use processed data to reproduce the main results shown in the manuscript
 
+Click [https://drive.google.com/file/d/0BwieX-ApVZM5X2hwMXpyVDd5eE0/edit?usp=sharing here] to download an Excel file contains Supplemental Tables S1~8.
+
 == analysing the nucleotide skew data ==
 
 This section allows you use our model to :
