@@ -1,6 +1,6 @@
 #summary use processed data to reproduce the main results shown in the manuscript
 
-Click [https://drive.google.com/file/d/0BwieX-ApVZM5X2hwMXpyVDd5eE0/edit?usp=sharing here] to download an Excel file contains Supplemental Tables S1~8.
+Some of the processed data are available as an Excel file (download from [https://drive.google.com/file/d/0BwieX-ApVZM5X2hwMXpyVDd5eE0/edit?usp=sharing here]) that contains Supplemental Tables S1~8 of our submitted manuscript; others can be generated using the programs provided bellow.
 
 == analysing the nucleotide skew data ==
 
@@ -15,7 +15,9 @@ How-to:
   # launch your "R" application; if you don't have one, please download it from [http://www.r-project.org/ here]. Set the working directory to "/path/to/nucleotideSkews2014Rproject".
   # copy and paste the contents of the R source code file : 'nskews_june2014' into your R program.
 
-*NOTE:* a R library "ggplot2" is required to make the figures; please install it if you haven't done so.
+*NOTE:* 
+  * a R library "ggplot2" is required to make the figures; please install it if you haven't done so.
+  * all required data and additional R scripts are included.
 
 == generating the random dataset used in Figure 3 ==
 
