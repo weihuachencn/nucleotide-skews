@@ -1,6 +1,6 @@
 #summary use processed data to reproduce the main results shown in the manuscript
 
-Some of the processed data are available as an Excel file (download from [https://drive.google.com/file/d/0BwieX-ApVZM5X2hwMXpyVDd5eE0/edit?usp=sharing here]) that contains Supplemental Tables S1~8 of our submitted manuscript; others can be generated using the programs provided bellow.
+Some of the processed data are available as an Excel file (download from [https://drive.google.com/file/d/0BwieX-ApVZM5Qm05U1VaeHVYd1E/edit?usp=sharing here]) that contains Supplemental Tables S1~9 of our submitted manuscript; others can be generated using the programs provided bellow.
 
 == analysing the nucleotide skew data ==
 
@@ -50,3 +50,12 @@ How-to:
 The contents of the zip file:
   * the genome-wide metabolic model 'iJO1366' for E. coli by Orth _et al_ [http://www.ncbi.nlm.nih.gov/pubmed/21988831 (PMID: 21988831)]. 
   * two R script files.
+
+== identifying preferred codons for selected genomes ==
+
+[https://drive.google.com/file/d/0BwieX-ApVZM5MzBfdFZ0djFleXc/edit?usp=sharing Here] is a Java implementation of the method we used in our study.
+
+  # It is a NetBeans 8 project. Unzip the archived file and open it with NetBeans, you can see the source codes.
+  # a precompile jar file can be found in the 'dist/' subfolder. to run it, JAVA 1.7 is required.
+  # this program uses a parallel library and it will be VERY memory-consuming, so please try not to run it on your laptop / desktop.
+  # additional files and external programs are needed to run this program (to be further explained).
