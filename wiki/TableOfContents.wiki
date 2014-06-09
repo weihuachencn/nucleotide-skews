@@ -2,6 +2,3 @@
   * [NSCodonTable Energy efficiency trade-offs drive nucleotide usage in transcribed regions]
     * [NSCodonTableUseProcessedData reproduce our results using processed data]
     * [NSCodonTableFromScratch reproduce our results from scratch]
-  * [NSDownloads Downloads]
-    * [NSDataDownloads Data]
-    * [NSCodesDownloads Codes]
