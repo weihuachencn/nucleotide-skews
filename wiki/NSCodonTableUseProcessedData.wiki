@@ -14,7 +14,7 @@ This section allows you use our model to :
     * do statistical tests used in the main text and supplementary text
 
 How-to:
-  # download a zip file from [https://drive.google.com/file/d/0BwieX-ApVZM5T0tSTk8zYXMyMFE/edit?usp=sharing here] and unzip it; a folder 'nucleotideSkews2014Rproject' will be created
+  # download a zip file from [https://drive.google.com/file/d/0BwieX-ApVZM5dy1DODVGR1hrbFE/edit?usp=sharing here] and unzip it; a folder 'nucleotideSkews2014Rproject' will be created
   # launch your "R" application; if you don't have one, please download it from [http://www.r-project.org/ here]. Set the working directory to "/path/to/nucleotideSkews2014Rproject".
   # copy and paste the contents of the R source code file : 'nskews_june2014' into your R program.
 
