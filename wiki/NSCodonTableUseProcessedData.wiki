@@ -41,7 +41,7 @@ This dataset was created using an in-house JAVA program, which can be downloaded
 
 How-to:
 
-  # download a zip file from [https://drive.google.com/file/d/0BwieX-ApVZM5eXdyTjRSaGVTN0U/edit?usp=sharing here]
+  # download a zip file from [https://drive.google.com/file/d/0BwieX-ApVZM5M2dTNmpOMERxT0k/edit?usp=sharing here]
   # unzip it, a folder 'E.coli-models' will be created
   # launch your "R" application. Set the working directory to "/path/to/E.coli-models".
   # copy and paste the contents of the R source code files : 'NtAtp01.R' and "NtAtp02.R" into your R program.
