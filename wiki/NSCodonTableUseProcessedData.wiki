@@ -62,3 +62,18 @@ The contents of the zip file:
   # a precompile jar file can be found in the 'dist/' subfolder. to run it, JAVA 1.7 is required.
   # this program uses a parallel library and it will be VERY memory-consuming, so please try not to run it on your laptop / desktop.
   # additional files and external programs are needed to run this program (to be further explained).
+
+== constructing a neighbour joining tree for the 1500 genomes ==
+
+in this paper we followed the procedure described by Ciccarelli, F. D. _et al_ (PMID: 16513982), with modifications. Briefly,
+  # identify the 40 universally conserved marker genes using [http://vm-lux.embl.de/~mende/fetchMG/contact.html fetchMG] for each of the 1500 genomes; 
+  # saved the protein sequences into 40 files, one for each marker gene; in the end, we would have 40 files, each contained about 1500 protein sequences.
+  # align the protein sequences in each 40 using MUSCLE. At the end of this step, we should have 40 multiple sequence alignment (MSA) files.
+  # refine the MSAs using Gblocks with parameters '-t=p -b3=8 -b4=2 -b5=h' (recommended by Ciccarelli, F. D. _et al_)
+  # concatenate the 40 refined MSAs into one
+  # run TreeBeST on the resulting MSA with default parameters (i.e. 'njtree input_MSA > output_tree.nj'). A neighbour joining tree will be obtained. 
+  # (optional step) upload the resulting tree to [http://evolgenius.info/evolview evolview] for visualisation.
+
+preprocessed files for download:
+|| *file (download link)* || *description* ||
+||  || ||
