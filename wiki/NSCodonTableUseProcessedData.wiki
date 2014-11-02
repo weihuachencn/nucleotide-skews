@@ -76,4 +76,9 @@ in this paper we followed the procedure described by Ciccarelli, F. D. _et al_ (
 
 preprocessed files for download:
 || *file (download link)* || *description* ||
-||  || ||
+||  [https://drive.google.com/open?id=0BwieX-ApVZM5UkVQNnp0WjNoZlE&authuser=0 marker genes]  || protein accession numbers of the marker genes identified in the 1500 genomes; there are four columns in the text file: 'genomeAcc' : accession number of genomes; 'proAcc' : accession number of protein sequences; 'hmmModel' : marker gene group; 'eValue' : e-value from hmm search ||
+||  [https://drive.google.com/open?id=0BwieX-ApVZM5WElGUWF2cG5EZVU&authuser=0 concatenated MSA] || concatenated multiple sequence alignment that was used to construct the phylogenetic tree  ||
+|| [https://drive.google.com/open?id=0BwieX-ApVZM5SW5MQXUwNDZ4Z0U&authuser=0 NHX tree] || resulting phylogenetic tree for the 1500 genomes in NHX format; the tree has branch lengths but no bootstrap values ||
+|| [https://drive.google.com/open?id=0BwieX-ApVZM5RnFoU2N4LWp0SEk&authuser=0 newick tree] || resulting phylogenetic tree in newick format; the tree has branch lengths but no bootstrap values  ||
+
+*please contact me* (chenwh550@gmail.com) if you're interested in the protein sequences of the marker genes and the 40 MSAs before Glocks-ing and concatenation. 
