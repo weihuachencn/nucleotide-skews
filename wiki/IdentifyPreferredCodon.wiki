@@ -2,12 +2,41 @@
 
 = Introduction =
 
-Under construction.
+Here we provide a Java program to identify preferred codons in a genome using coding sequences as input.
 
+This method we use here was previously described by Hershberg and Petrov in their PLoS Genetics (2009) paper [http://www.ncbi.nlm.nih.gov/pubmed/19593368 (PMID: 19593368)]. Please acknowledge their work (and ours of course) if you find this tool useful.
 
-= Details =
+This tool is written in Java so it will run on any OS with Java installed. 
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= What is a preferred codon? =
+
+The design of the codon table is that 61 codons code for 20 amino acids, so an amino acid is often coded by multiple codons. Thus codons can be grouped into 20 groups (aka codon families), according to the coded amino acids. A preferred codon refers to a codon that is significantly more frequently used than expected within a codon family.
+
+  # for each protein-coding gene in each genome a Nc value was calculated as the measure of the overall codon bias of the gene using the ENCprime program. Nc ranges from 20 (the most biased) to 61 (the least biased). 
+  # For each gene the frequency of each valid codon was also calculated. 
+  # for each codon a Spearman’s correlation was calculated between its frequencies across all coding genes in a specific genome and the Nc values of the corresponding coding genes. 
+  # A preferred codon would be then selected for each codon family (a codon family contains all codons that code for the same amino acid) if it has the strongest and significant negative correlation value among all codons within this codon family, and a Spearman’s p-value less than 0.05/n, where n is the number of codons in this codon family. 
+
+= Downloads =
+
+|| *link* || *description* ||
+|| [https://drive.google.com/open?id=0BwieX-ApVZM5bUtsQ2VBeWZCNTA&authuser=0 Multithreading version] || Source codes and a precompiled jar are included; use this version if you wish to use multiple CPU-cores and have big memory ||
+|| [https://drive.google.com/open?id=0BwieX-ApVZM5YWFXVXM3MlVKam8&authuser=0 Single thread version] || Source codes and a precompiled jar are included; use this version if you have slower machine and not so much memory ||
+
+*NOTES*
+  # It is a NetBeans 8 project. Unzip the archived file and open it with NetBeans, you can see the source codes.
+  # a precompile jar file can be found in the 'dist/' subfolder. to run it, JAVA 1.7 is required.
+  # this program uses a parallel library and it will be VERY memory-consuming, so please try not to run it on your laptop / desktop.
+
+= Input file and prerequisites for running this tool  =
+
+  # two executables, namely ENCprime and SeqCount are required; they are available for download from https://github.com/jnovembre/ENCprime
+  # a text file contains a list of input genomes is also needed; this file should contain two columns, separated by a single '\t' character. The 1st column is the accession number of a genome, and the 2nd is the full path to the coding sequence file of the genome. The sequences should be in fasta format. For example:
+{{{
+NC_012793       /path/to/NC_012793.fna
+NC_012794       /path/to/NC_012794.fna
+}}}
+
+= a file contains pre-calculated preferred codons for 1500 genomes is available for download =
+
+[https://drive.google.com/open?id=0BwieX-ApVZM5MnJ2T2hUZVF5SWM&authuser=0 here (Excel file)]
