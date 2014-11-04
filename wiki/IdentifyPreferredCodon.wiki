@@ -12,6 +12,8 @@ This tool is written in Java so it will run on any OS with Java installed.
 
 The design of the codon table is that 61 codons code for 20 amino acids, so an amino acid is often coded by multiple codons. Thus codons can be grouped into 20 groups (aka codon families), according to the coded amino acids. A preferred codon refers to a codon that is significantly more frequently used than expected within a codon family.
 
+Methods to identify preferred codes:
+
   # for each protein-coding gene in each genome a Nc value was calculated as the measure of the overall codon bias of the gene using the ENCprime program. Nc ranges from 20 (the most biased) to 61 (the least biased). 
   # For each gene the frequency of each valid codon was also calculated. 
   # for each codon a Spearman’s correlation was calculated between its frequencies across all coding genes in a specific genome and the Nc values of the corresponding coding genes. 
