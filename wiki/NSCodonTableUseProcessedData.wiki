@@ -80,5 +80,6 @@ preprocessed files for download:
 ||  [https://drive.google.com/open?id=0BwieX-ApVZM5WElGUWF2cG5EZVU&authuser=0 concatenated MSA] || concatenated multiple sequence alignment that was used to construct the phylogenetic tree  ||
 || [https://drive.google.com/open?id=0BwieX-ApVZM5SW5MQXUwNDZ4Z0U&authuser=0 NHX tree] || resulting phylogenetic tree for the 1500 genomes in NHX format; the tree has branch lengths but no bootstrap values ||
 || [https://drive.google.com/open?id=0BwieX-ApVZM5RnFoU2N4LWp0SEk&authuser=0 newick tree] || resulting phylogenetic tree in newick format; the tree has branch lengths but no bootstrap values  ||
+|| [https://drive.google.com/open?id=0BwieX-ApVZM5NFNiZFo3emt1RVE&authuser=0 processed tree] || processed tree using the "CAPER" package in R ||
 
 *please contact me* (chenwh550@gmail.com) if you're interested in the protein sequences of the marker genes and the 40 MSAs before Glocks-ing and concatenation. 
