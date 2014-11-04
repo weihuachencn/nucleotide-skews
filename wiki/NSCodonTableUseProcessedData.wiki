@@ -19,7 +19,7 @@ How-to:
   # copy and paste the contents of the R source code file : 'nskews_june2014.R' into your R program.
 
 *NOTE:* 
-  * a R library "ggplot2" is required to make the figures; please install it if you haven't done so.
+  * a few R libraries including "ggplot2" and "caper" are required to make the figures; please install them if you haven't done so.
   * all required data and additional R scripts are included.
 
 == generating the random dataset used in Figure 3 ==
@@ -47,7 +47,7 @@ How-to:
   # copy and paste the contents of the R source code files : 'NtAtp01.R' and "NtAtp02.R" into your R program.
 
 * NOTE *
-  # R library 'sybil' is required; see [http://www.biomedcentral.com/1752-0509/7/125 here] for the publication.
+  # R library 'sybil' is required; see [http://www.biomedcentral.com/1752-0509/7/125 here] for the publication; please cite this paper if you can.
   # additional R libraries required by 'sybil' : Matrix, lattice, glpkAPI
 
 The contents of the zip file:
