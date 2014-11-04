@@ -2,8 +2,6 @@
 
 _please send email to chenwh550@gmail.com if you have questions and/or comments. Do *NOT* comment on this page because I wouldn't be notified!_
 
-Click [https://drive.google.com/file/d/0BwieX-ApVZM5N0ZiZE9PcUNJUGc/edit?usp=sharing here] to download an Excel file contains Supplemental Tables S1~9.
-
 select one topic bellow to continue:
 
   # [NSCodonTableUseProcessedData reproduce our results using processed data]
