@@ -1,0 +1,9 @@
+#summary the energy efficiency tradeoffs encoded in the codon table
+
+
+This dataset was created using an in-house JAVA program, which can be downloaded from [https://drive.google.com/file/d/0BwieX-ApVZM5ZFp3b083R0h0QVU/edit?usp=sharing here]. 
+
+*NOTE:*
+  # It is a NetBeans 8 project. Unzip the archived file and open it with NetBeans, you can see the source codes.
+  # a precompile jar file can be found in the 'dist/' subfolder. to run it, JAVA 1.7 is required.
+  # this program uses a parallel library and it will be VERY memory-consuming, so please try not to run it on your laptop / desktop.
