@@ -8,7 +8,7 @@ This method we use here was previously described by Hershberg and Petrov in thei
 
 This tool is written in Java so it will run on any OS with Java installed. 
 
-= What is a preferred codon? =
+= What is a preferred codon and how to identify one? =
 
 The design of the codon table is that 61 codons code for 20 amino acids, so an amino acid is often coded by multiple codons. Thus codons can be grouped into 20 groups (aka codon families), according to the coded amino acids. A preferred codon refers to a codon that is significantly more frequently used than expected within a codon family.
 
