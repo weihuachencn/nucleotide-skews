@@ -1,5 +1,6 @@
 [Documentation]
   * [NSCodonTable Energy efficiency trade-offs drive nucleotide usage in transcribed regions]
     * [NSCodonTableUseProcessedData reproduce our results using processed data]
+      * [IdentifyPreferredCodon Identify preferred codons from protein coding sequences]
     * [NSCodonTableFromScratch reproduce our results from scratch]
     * [NSCodonTableMartin results for martin]
