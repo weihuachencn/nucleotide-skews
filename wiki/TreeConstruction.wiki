@@ -1,0 +1,21 @@
+#summary construct phylogenetic trees for the 1500 prokaryotic genomes
+
+
+in this paper we followed the procedure described by Ciccarelli, F. D. _et al_ (PMID: 16513982), with modifications. Briefly,
+  # identify the 40 universally conserved marker genes using [http://vm-lux.embl.de/~mende/fetchMG/contact.html fetchMG] for each of the 1500 genomes; 
+  # saved the protein sequences into 40 files, one for each marker gene; in the end, we would have 40 files, each contained about 1500 protein sequences.
+  # align the protein sequences in each 40 using MUSCLE. At the end of this step, we should have 40 multiple sequence alignment (MSA) files.
+  # refine the MSAs using Gblocks with parameters '-t=p -b3=8 -b4=2 -b5=h' (recommended by Ciccarelli, F. D. _et al_)
+  # concatenate the 40 refined MSAs into one
+  # run TreeBeST on the resulting MSA with default parameters (i.e. 'njtree input_MSA > output_tree.nj'). A neighbour joining tree will be obtained. 
+  # (optional step) upload the resulting tree to [http://evolgenius.info/evolview evolview] for visualisation.
+
+preprocessed files for download:
+|| *file (download link)* || *description* ||
+||  [https://drive.google.com/open?id=0BwieX-ApVZM5UkVQNnp0WjNoZlE&authuser=0 marker genes]  || protein accession numbers of the marker genes identified in the 1500 genomes; there are four columns in the text file: 'genomeAcc' : accession number of genomes; 'proAcc' : accession number of protein sequences; 'hmmModel' : marker gene group; 'eValue' : e-value from hmm search ||
+||  [https://drive.google.com/open?id=0BwieX-ApVZM5WElGUWF2cG5EZVU&authuser=0 concatenated MSA] || concatenated multiple sequence alignment that was used to construct the phylogenetic tree  ||
+|| [https://drive.google.com/open?id=0BwieX-ApVZM5SW5MQXUwNDZ4Z0U&authuser=0 NHX tree] || resulting phylogenetic tree for the 1500 genomes in NHX format; the tree has branch lengths but no bootstrap values ||
+|| [https://drive.google.com/open?id=0BwieX-ApVZM5RnFoU2N4LWp0SEk&authuser=0 newick tree] || resulting phylogenetic tree in newick format; the tree has branch lengths but no bootstrap values  ||
+|| [https://drive.google.com/open?id=0BwieX-ApVZM5NFNiZFo3emt1RVE&authuser=0 processed tree] || processed tree using the "CAPER" package in R ||
+
+*please contact me* (chenwh550@gmail.com) if you're interested in the protein sequences of the marker genes and the 40 MSAs before Glocks-ing and concatenation. 
