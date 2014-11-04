@@ -1,0 +1,8 @@
+#summary generate the random dataset used in Figure 3
+
+= Introduction =
+
+
+The random dataset was created using a PERL script, which can be downloaded from [https://drive.google.com/file/d/0BwieX-ApVZM5ekFweWxCZ0NnT1E/edit?usp=sharing here].
+
+*NOTE:* a PERL library "List::Util" is required.
