@@ -28,7 +28,7 @@ The random dataset was created using a PERL script, which can be downloaded from
 
 *NOTE:* a PERL library "List::Util" is required.
 
-== generating the dataset used in Figure 4 (the trade-off) ==
+== generating the dataset used in Figure 4 (the trade-off; also Figure S2) ==
 
 This dataset was created using an in-house JAVA program, which can be downloaded from [https://drive.google.com/file/d/0BwieX-ApVZM5ZFp3b083R0h0QVU/edit?usp=sharing here]. 
 
@@ -61,7 +61,7 @@ The contents of the zip file:
   # It is a NetBeans 8 project. Unzip the archived file and open it with NetBeans, you can see the source codes.
   # a precompile jar file can be found in the 'dist/' subfolder. to run it, JAVA 1.7 is required.
   # this program uses a parallel library and it will be VERY memory-consuming, so please try not to run it on your laptop / desktop.
-  # additional files and external programs are needed to run this program (to be further explained).
+  # additional files and external programs are needed to run this program; *see [IdentifyPreferredCodon here] for more details on the methods*.
 
 == constructing a neighbour joining tree for the 1500 genomes ==
 
