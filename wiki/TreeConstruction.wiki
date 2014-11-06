@@ -16,6 +16,6 @@ preprocessed files for download:
 ||  [https://drive.google.com/open?id=0BwieX-ApVZM5UkVQNnp0WjNoZlE&authuser=0 marker genes]  || protein accession numbers of the marker genes identified in the 1500 genomes; there are four columns in the text file: 'genomeAcc' : accession number of genomes; 'proAcc' : accession number of protein sequences; 'hmmModel' : marker gene group; 'eValue' : e-value from hmm search ||
 ||  [https://drive.google.com/open?id=0BwieX-ApVZM5WElGUWF2cG5EZVU&authuser=0 concatenated MSA] || concatenated multiple sequence alignment that was used to construct the phylogenetic tree  ||
 || [https://drive.google.com/open?id=0BwieX-ApVZM5TFY2OHM4MWRQVEk&authuser=0 RAxML tree in newick format] || resulting phylogenetic tree for the 1500 genomes in NHX format; the tree has branch lengths but no bootstrap values ||
-|| [https://drive.google.com/open?id=0BwieX-ApVZM5ZzBZWS14VTAwZTg&authuser=0 processed ULTRAMETRIC tree] || processed tree using the "CAPER" package in R ||
+|| [https://drive.google.com/open?id=0BwieX-ApVZM5ZzBZWS14VTAwZTg&authuser=0 processed ULTRAMETRIC tree] || processed tree using the chronos function (in the 'ape' package) in R ||
 
 *please contact me* (chenwh550@gmail.com) if you're interested in the protein sequences of the marker genes and the 40 MSAs before Glocks-ing and concatenation. 
