@@ -12,5 +12,5 @@ How-to:
   # copy and paste the contents of the R source code file : 'nskews_june2014.R' into your R program.
 
 *NOTE:* 
-  * a few R libraries including "ggplot2" and "caper" are required to make the figures; please install them if you haven't done so.
+  * a few R libraries including "ggplot2", "caper" and "ape" are required to make the figures; please install them if you haven't done so.
   * all required data and additional R scripts are included.
