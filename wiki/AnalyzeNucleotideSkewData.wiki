@@ -3,7 +3,7 @@
 This section allows you use our model to :
     * analyse the nucleotide skew data, 
     * dissect contributions attributed to replication, transcription and translation, 
-    * plot all main figures and figure S2,
+    * plot all main figures and extended data figures 2~6,
     * do statistical tests used in the main text and supplementary text
 
 How-to:
