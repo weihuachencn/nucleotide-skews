@@ -39,6 +39,6 @@ NC_012793       /path/to/NC_012793.fna
 NC_012794       /path/to/NC_012794.fna
 }}}
 
-= A file contains pre-calculated preferred codons for 1500 prokaryotic genomes is available for download =
+= A file contains pre-calculated preferred codons for 1550 prokaryotic genomes is available for download =
 
 [https://drive.google.com/open?id=0BwieX-ApVZM5MnJ2T2hUZVF5SWM&authuser=0 here (Excel file)]
