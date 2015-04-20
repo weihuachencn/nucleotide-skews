@@ -1,0 +1,1 @@
+Please select a topic from the sidebar on the left.
